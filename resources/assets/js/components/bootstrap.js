@@ -12,3 +12,5 @@
 require('./../spark-components/bootstrap');
 
 require('./home');
+require('./datepicker');
+require('./campana/crearCampana');

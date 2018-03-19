@@ -1,7 +1,12 @@
-Vue.component('home', {
-    props: ['user'],
+import Datepicker from "vuejs-datepicker";
 
-    mounted() {
-        //
-    }
+
+Vue.component("home", {
+  props: ["user", "teams", "currentTeam"],
+  components: {
+    Datepicker
+  },
+  mounted() {
+    console.log(Spark.state.teams);
+  }
 });

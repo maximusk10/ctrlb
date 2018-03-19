@@ -1,2 +1,64 @@
 // @import "./spark/spark";
 @import "./../../../vendor/laravel/spark-aurelius/resources/assets/sass/spark";
+
+body {
+  background: #1B263B;
+}
+.navbar {
+  background: #0D1B2A;
+}
+
+.card-header {
+  background-color: #0D1B2A;
+  color: white;
+  font-weight: bold;
+}
+.card-header:first-child {
+  border-radius: 0;
+}
+.overview {
+  
+}
+.overview__block {
+  margin: 10px;
+  color: white;
+  background: #111111;
+  
+}
+.overview__camp_creadas {
+  border-bottom: 1px solid rgba(255,255,255,.2);
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.overview__value_block {
+  background: rgba(255,255,255,.1);
+  justify-content: center;
+  font-weight: bold;
+  font-size: 52px;
+  padding: 20px 0;
+  word-wrap: break-word;
+}
+
+.h_icoTable {
+  margin: 1px 0;
+  padding: 5px;
+  justify-content: center;
+}
+
+.overview__first {
+  background: #005B7C;
+}
+
+.overview__second {
+  background: #2E294E;
+}
+
+.overview__third {
+  background: #2e7d32;
+}
+.overview__value_currency {
+  font-size: 22px;
+}

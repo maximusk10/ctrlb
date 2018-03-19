@@ -34,7 +34,8 @@ class SparkServiceProvider extends ServiceProvider
      */
     protected $developers = [
         //
-        'hawkfx@gmail.com'
+        'hawkfx@gmail.com',
+        'proudmsk10@gmail.com'
     ];
 
     /**
@@ -64,6 +65,13 @@ class SparkServiceProvider extends ServiceProvider
             ->features([
                 '100 FB Accounts',
                 '10 Users'
-            ]);
+        ]);
+
+        Spark::useRoles([
+            'miembro' => 'Miembro',
+            'senior' => 'Usuario Senior',
+            'advanced' => 'Usuario Advanced',
+            'beginner' => 'Usuario Beginner'
+        ]);
     }
 }

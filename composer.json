@@ -13,7 +13,8 @@
         "laravel/framework": "5.6.*",
         "laravel/tinker": "~1.0",
         "laravel/cashier": "~7.0",
-        "laravel/spark-aurelius": "*@dev"
+        "laravel/spark-aurelius": "*@dev",
+        "laravelcollective/html": "^5.4.0"
     },
     "require-dev": {
         "filp/whoops": "~2.0",
@@ -21,7 +22,9 @@
         "mockery/mockery": "~1.0",
         "nunomaduro/collision": "~2.0",
         "phpunit/phpunit": "~7.0",
-        "symfony/thanks": "^1.0"
+        "symfony/thanks": "^1.0",
+        "laravel/spark-aurelius": "~7.0",
+        "laravel/cashier": "~7.0"
     },
     "autoload": {
         "classmap": [
