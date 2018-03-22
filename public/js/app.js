@@ -67300,9 +67300,8 @@ Vue.component("crear-campana", {
 /***/ }),
 
 /***/ "./resources/assets/js/components/datepicker.js":
-/***/ (function(module, __webpack_exports__) {
+/***/ (function(module, exports) {
 
-"use strict";
 
 
 /***/ }),

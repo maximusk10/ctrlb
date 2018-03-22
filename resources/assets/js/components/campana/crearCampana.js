@@ -13,3 +13,4 @@ Vue.component("crear-campana", {
     console.log("wololo");
   }
 });
+

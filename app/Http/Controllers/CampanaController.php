@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Campana;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
+use DB;
 
 class CampanaController extends Controller
 {
@@ -66,7 +67,8 @@ class CampanaController extends Controller
      */
     public function show($id)
     {
-        //
+        $campaign = DB::table('campanas')->where('id', '=', $id)->get();
+        return view('campanas/show', ["campaign"=>$campaign]);
     }
 
     /**
